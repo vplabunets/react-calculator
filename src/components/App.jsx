@@ -2,7 +2,7 @@ import Button from './Button/Button';
 import ButtonBox from './ButtonBox/ButtonBox';
 import Screen from './Screen/Screen';
 import Wrapper from './Wrapper/Wrapper';
-import { Btn, Equals, Opt } from './Button/Button.styled';
+// import { Btn, Equals, Opt } from './Button/Button.styled';
 const btnValues = [
   ['C', '+-', '%', '/'],
   [1, 2, 3, 'x'],

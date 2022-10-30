@@ -17,6 +17,7 @@ export const Btn = styled.button`
 `;
 
 export const Equals = styled.button`
+  font-size: 16px;
   background: #4db086;
   grid-column: 3/5;
   height: 3.5rem;
@@ -35,7 +36,7 @@ export const Equals = styled.button`
 
 export const Opt = styled.button`
   background: #f79505;
-  grid-column: 3/5;
+  grid-column: 4/5;
   height: 3.5rem;
   padding: 10px;
   border-radius: 10px;
@@ -49,3 +50,8 @@ export const Opt = styled.button`
     border: 3px dotted #242424;
   }
 `;
+
+// export const BtnRow = styled.div`
+//   display: flex;
+//   flex-direction: row;
+// `;
