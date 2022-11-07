@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const Btn = styled.button`
-  background: #ffffff;
+  font-size: 25px;
+  background-color: #ffffff;
   height: 3.5rem;
   padding: 10px;
   border-radius: 10px;
@@ -10,14 +11,15 @@ export const Btn = styled.button`
   justify-content: center;
   cursor: pointer;
   color: #242424;
-  border: none;
+  border: 0px solid white;
+  transition: border 250ms linear;
   &:hover {
-    border: 3px dotted #242424;
+    border: 3px solid #f79505;
   }
 `;
 
 export const Equals = styled.button`
-  font-size: 16px;
+  font-size: 25px;
   background: #4db086;
   grid-column: 3/5;
   height: 3.5rem;
@@ -27,15 +29,16 @@ export const Equals = styled.button`
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  color: ${props => props.color};
-  border: none;
+  border: 0px solid #4db086;
+  transition: border 250ms linear;
   &:hover {
-    border: 3px dotted #242424;
+    border: 3px solid #f79505;
   }
 `;
 
 export const Opt = styled.button`
   background: #f79505;
+  font-size: 25px;
   grid-column: 4/5;
   height: 3.5rem;
   padding: 10px;
@@ -45,13 +48,9 @@ export const Opt = styled.button`
   justify-content: center;
   cursor: pointer;
   color: #242424;
-  border: none;
+  border: 0px solid #f79505;
+  transition: border 250ms linear;
   &:hover {
-    border: 3px dotted #242424;
+    border: 3px solid #4db086;
   }
 `;
-
-// export const BtnRow = styled.div`
-//   display: flex;
-//   flex-direction: row;
-// `;

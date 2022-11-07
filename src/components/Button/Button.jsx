@@ -83,7 +83,7 @@ const Button = ({ value }) => {
     console.log(value);
     const results = {
       '.': commaClick,
-      '&': resetClick,
+      С: resetClick,
       '/': signClick,
       '*': signClick,
       '-': signClick,
@@ -98,7 +98,7 @@ const Button = ({ value }) => {
   };
   return (
     <>
-      {['&', '+-', '%', '.', 0, 1, 2, 3, 4, 5, 6, 7, 8, 9].includes(value) && (
+      {['С', '+-', '%', '.', 0, 1, 2, 3, 4, 5, 6, 7, 8, 9].includes(value) && (
         <Btn onClick={handleBtnClick}>{value}</Btn>
       )}
       {['/', '+', '-', '*'].includes(value) && (

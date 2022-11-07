@@ -12,9 +12,3 @@ const ButtonBox = ({ btnValues }) => {
   );
 };
 export default ButtonBox;
-
-// {
-//   btnValues.flat().map((btn, index) => {
-//     return <Button value={btn} key={index} />;
-//   });
-// }
