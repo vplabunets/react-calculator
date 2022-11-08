@@ -14,10 +14,7 @@ const Screen = () => {
           fontSize,
           height: 64,
           width: 265,
-          // display: 'flex',
           alignItems: 'center',
-          // flexDirection: 'row-reverse',
-          // justifyContent: 'right',
         }}
       >
         {calc.num ? calc.num : calc.res}
